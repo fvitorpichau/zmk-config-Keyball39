@@ -134,10 +134,10 @@
         number_layer {
             label = "NUM";
             bindings = <
-            &mt EXCLAMATION NUMBER_1            &mt AT_SIGN NUMBER_2            &mt HASH NUMBER_3            &mt DOLLAR NUMBER_4                  &mt PERCENT NUMBER_5                              &mt CARET NUMBER_6                  &mt AMPERSAND NUMBER_7                  &mt ASTERISK NUMBER_8                  &mt LEFT_PARENTHESIS NUMBER_9                  &mt RIGHT_PARENTHESIS NUMBER_0
-            &kp SINGLE_QUOTE                    &kp LS(SLASH)                   &kp LS(LEFT_BRACKET)         &mt LEFT_SHIFT SEMICOLON             &bars                                             &kp CAPS                            &open_symbol                            &close_symbol                          &mt MINUS UNDER                                &mt PLUS EQUAL
-            &kp F2                              &kp F3                          &kp F4                       &kp F5                               &kp F6                                            &kp F7                              &kp F8                                  &kp F9                                 &kp F10                                        &kp F11
-            &kp F1                              &trans                          &trans                       &trans                              &trans                                             &trans                              &trans                                  &trans                                                                                &kp F12
+                &mt EXCLAMATION NUMBER_1            &mt AT_SIGN NUMBER_2            &mt HASH NUMBER_3            &mt DOLLAR NUMBER_4                  &mt PERCENT NUMBER_5                              &mt CARET NUMBER_6                  &mt AMPERSAND NUMBER_7                  &mt ASTERISK NUMBER_8                  &mt LEFT_PARENTHESIS NUMBER_9                  &mt RIGHT_PARENTHESIS NUMBER_0
+                &kp SINGLE_QUOTE                    &kp LS(SLASH)                   &kp LS(LEFT_BRACKET)         &mt LEFT_SHIFT SEMICOLON             &bars                                             &kp CAPS                            &open_symbol                            &close_symbol                          &mt MINUS UNDER                                &mt PLUS EQUAL
+                &kp F2                              &kp F3                          &kp F4                       &kp F5                               &kp F6                                            &kp F7                              &kp F8                                  &kp F9                                 &kp F10                                        &kp F11
+                &kp F1                              &trans                          &trans                       &trans                              &trans                                             &trans                              &trans                                  &trans                                                                                &kp F12
             >;
         };
 
@@ -145,10 +145,10 @@
          config_layer {
             label = "CONFIG";
             bindings = <
-                &kp F1  &kp F2   &kp F3   &kp F4   &none                   &none   &none  &none  &none  &none
-                &kp F5  &kp F6   &kp F7   &kp F8   &none                   &none   &none  &none  &none  &none
-                &kp F9  &kp F10  &kp F11  &kp F12  &none                   &none   &none  &none  &none  &none
-                &trans  &trans   &trans   &trans   &trans  &trans  &trans  &trans                       &trans
+                &kp F1                 &kp F2                 &kp F3                 &kp F4                 &none                                                 &none                  &none                  &none                  &none                  &none
+                &kp F5                 &kp F6                 &kp F7                 &kp F8                 &none                                                 &none                  &none                  &none                  &none                  &none
+                &kp F9                 &kp F10                &kp F11                &kp F12                &none                                                 &none                  &none                  &none                  &none                  &none
+                &trans                 &trans                 &trans                 &trans                 &trans                 &trans                         &trans                 &trans                 &trans
             >;
         };
 
@@ -165,20 +165,20 @@
         scroll_layer {
             label = "SCROLL";
             bindings = <
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans
+                &trans                 &trans                 &trans                 &trans                 &trans                                                &trans                 &trans                 &trans                 &trans                 &trans
+                &trans                 &trans                 &trans                 &trans                 &trans                                                &trans                 &trans                 &trans                 &trans                 &trans
+                &trans                 &trans                 &trans                 &trans                 &trans                                                &trans                 &trans                 &trans                 &trans                 &trans
+                &trans                 &trans                 &trans                 &trans                 &trans                 &trans                         &trans                 &trans                 &trans
             >;
         };
 
         snipe_layer {
             label = "SNIPE";
             bindings = <
-&trans  &trans  &trans  &trans  &bootloader                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans                          &trans
+                &trans                 &trans                 &trans                 &trans                 &bootloader                                           &trans                 &trans                 &trans                 &trans                 &trans
+                &trans                 &trans                 &trans                 &trans                 &trans                                                &trans                 &trans                 &trans                 &trans                 &trans
+                &trans                 &trans                 &trans                 &trans                 &trans                                                &trans                 &trans                 &trans                 &trans                 &trans
+                &trans                 &trans                 &trans                 &trans                 &trans                 &trans                         &trans                 &trans                 &trans
             >;
         };
     };
