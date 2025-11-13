@@ -126,7 +126,7 @@
                 &kp ESC                &kp PAGE_DOWN          &kp UP                 &kp PAGE_UP            &none                                                   &none                  &msc SCRL_UP           &msc SCRL_DOWN         &msc SCRL_DOWN         &kp BSPC
                 &kp TAB                &kp LEFT               &kp DOWN               &kp RIGHT              &none                                                   &none                  &kp LEFT_SHIFT         &kp LEFT_CONTROL       &kp LALT               &kp RETURN
                 &kp LSHIFT             &none                  &none                  &none                  &none                                                   &kp DEL                &kp INSERT             &tab_left              &none                  &kp BSPC
-                &trans                 &trans                 &trans                 &trans                 &trans             &trans                               &none                  &none                                                                &trans
+                &bt BT_CLR_ALL             &trans                 &trans                 &trans                 &trans             &trans                               &none                  &none                                                                &trans
              >;
         };
 
