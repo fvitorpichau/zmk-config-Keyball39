@@ -115,7 +115,7 @@
                 &mt RS(Q) Q            &mt RS(W) W            &mt RS(E) E            &mt RS(R) R            &mt RS(T) T                                            &mt RS(Y) Y             &mt RS(U) U            &mt RS(I) I            &mt RS(O) O            &mt RS(P) P
                 &mt RS(A) A            &mt RS(S) S            &mt RS(D) D            &mt RS(F) F            &mt RS(G) G                                            &mt RS(H) H             &mt RS(J) J            &mt RS(K) K            &mt RS(L) L            &mt RS(SEMI) SEMI
                 &mt RS(Z) Z            &mt RS(X) X            &mt RS(C) C            &mt RS(V) V            &mt RS(B) B                                            &mt RS(N) N             &mt RS(M) M            &comma_comma           &dot_dot               &kp BSPC
-                &kp LCTRL              &kp ESC                &kp LALT               &sk LEFT_CONTROL       &lt NUMBERS SPACE  &kp LEFT_GUI                        &kp LALT                &lt NAVIGATION SPACE                                                 &tog MOUSE
+                &kp LCTRL              &kp ESC                &kp LALT               &sk LEFT_CONTROL       &lt NUMBERS SPACE  &kp LEFT_GUI                        &kp LALT                &lt NAVIGATION SPACE                                                 &to MOUSE
 
             >;
         };
@@ -158,7 +158,7 @@
                 &kp ESC             &kp Q              &kp W             &kp R          &kp T                           &kp NUMBER_1            &kp Y          &msc SCRL_UP       &msc SCRL_DOWN         &kp BSPC
                 &kp LSHIFT          &kp A              &kp S             &kp D          &kp F                           &kp NUMBER_2            &mkp LCLK      &msc SCRL_DOWN     &mkp RCLK              &kp RETURN
                 &kp LCTRL           &kp Z              &kp X             &kp C          &kp G                           &kp NUMBER_3            &kp NUMBER_4   &kp NUMBER_5       &kp NUMBER_6           &kp BSPC
-                &kp TAB             &kp LALT           &kp V             &kp BSPC       &kp SPACE   &kp RETURN          &mkp RCLK  &mkp LCLK                                                             &tog MAC
+                &kp TAB             &kp LALT           &kp V             &kp BSPC       &kp SPACE   &kp RETURN          &mkp RCLK  &mkp LCLK                                                             &to MAC
             >;
         };
 
